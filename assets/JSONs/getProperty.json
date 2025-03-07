@@ -1,0 +1,58 @@
+{
+    "propertyId": 1,
+    "title": "Luxury Apartment",
+    "description": "A spacious and modern apartment.",
+    "location": "Downtown, NY",
+    "propertyType": "APARTMENT",
+    "status": "AVAILABLE",
+    "amenities": ["WiFi", "Parking", "Gym"],
+    "totalUnits": 10,
+    "availableUnits": 3,
+    "minRent": 1000,
+    "maxRent": 3000,
+    "rentPackage": "Includes water and electricity",
+    "rentPaymentTerms": "Monthly",
+    "foodAvailability": {
+      "breakfast": true,
+      "lunch": false,
+      "dinner": true
+    },
+    "availability": [
+      { "availableFrom": "2024-03-01", "availableTo": "2024-12-31" }
+    ],
+    "rules": "No smoking, No pets",
+    "noticePeriod": 30,
+    "lockInPeriod": 6,
+    "utilities": [
+      { "name": "Electricity", "price": 50 },
+      { "name": "Water", "price": 20 }
+    ],
+    "owner": {
+      "id": 101,
+      "name": "John Doe",
+      "contact": "+1 234 567 890",
+      "email": "johndoe@example.com"
+    },
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001"
+    },
+    "media": [
+      { "url": "image1.jpg", "type": "image" },
+      { "url": "video1.mp4", "type": "video" }
+    ],
+    "occupancies": [
+      {
+        "occupantName": "Alice",
+        "startDate": "2024-01-01",
+        "endDate": "2024-06-30"
+      }
+    ],
+    "faqs": [
+      { "question": "Is parking available?", "answer": "Yes, free parking is available." }
+    ],
+    "genderAvailability": "ANY"
+  }
+  
